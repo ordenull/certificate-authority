@@ -1,0 +1,17 @@
+# Private Key Length
+BITS=2048
+
+# Nickname will be the CN of the certificate
+NICKNAME="Widgets Incorporated Root CA"
+
+# Organization or company name
+ORGANIZATION="Widgets Incorporated"
+
+# Country code
+COUNTRY="US"
+
+# CA certificate URL (optional, comment out if not used)
+CRT_URL="pki.widgets.com/root.crt"
+
+# Certificate revocation list URL (optional, comment out if not used)
+CRL_URL="pki.widgets.com/root.crl"

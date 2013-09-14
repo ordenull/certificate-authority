@@ -1,0 +1,8 @@
+#################################################
+## ssl_misc.cnf #################################
+#################################################
+
+[ crl_ext ]
+# issuerAltName=issuer:copy
+authorityKeyIdentifier=keyid:always
+

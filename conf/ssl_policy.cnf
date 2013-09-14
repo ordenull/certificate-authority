@@ -1,0 +1,21 @@
+#################################################
+## ssl_policy.cnf ###############################    
+#################################################
+
+[ policy_match ]
+countryName		= match
+stateOrProvinceName	= optional
+organizationName	= match
+organizationalUnitName	= optional
+commonName		= supplied
+emailAddress		= optional
+
+[ policy_anything ]
+countryName		= optional
+stateOrProvinceName	= optional
+localityName		= optional
+organizationName	= optional
+organizationalUnitName	= optional
+commonName		= supplied
+emailAddress		= optional
+
